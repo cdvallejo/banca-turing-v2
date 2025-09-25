@@ -12,7 +12,6 @@ $dniAntiguo = $_POST["dniAntiguo"];
 // UPDATE cliente SET dni="12345", nombre="Antonio", direccion="Campanillas" WHERE dni="567"
 
 $consulta = mysqli_query($conexion, "SELECT COUNT(*) AS dni FROM cliente WHERE dni = '$dni'");
-
 $registro = mysqli_fetch_array($consulta);
 
 // Si el dni coincide con el existente o si no existe, se puede modificar
