@@ -10,6 +10,7 @@ Versión mejorada a partir del ejemplo dado en clase:
 4. Función para ordenar el listado alfabéticamente según el campo presionado: Dni, nombre, dirección, etc.
 
 Puedes probar la aplicación en este [enlace al repo web](https://carlos-vallejo.alwaysdata.net/banca-turing-v2/).
+
 ---
 * Realizado para la clase "Desarrollo de aplicaciones web en el entorno servidor".
 * **Certificado de Desarrollo de Aplicaciones con Tecnología Web (IFCD2010)**, impartido por el **CPIFP Alan Turing**.
