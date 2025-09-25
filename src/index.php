@@ -1,6 +1,7 @@
 <?php
 session_start();
 require("conexion.php");
+require("ordenar.php");
 ?>
 
 
@@ -48,10 +49,10 @@ require("conexion.php");
 
       <table class="table table-striped">
         <tr>
-          <th>DNI</th>
-          <th>Nombre</th>
-          <th>Dirección</th>
-          <th>Teléfono</th>
+          <th><a href="?orderby=dni">DNI ⬆</a></th>
+          <th><a href="?orderby=nombre">Nombre ⬆</a></th>
+          <th><a href="?orderby=direccion">Dirección ⬆</a></th>
+          <th><a href="?orderby=dni">Teléfono ⬆</a></th>
           <th></th>
           <th></th>
         </tr>

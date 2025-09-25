@@ -1,11 +1,10 @@
 <?php
-require("conexion.php");
 
-$order = "dni";
+// por defecto ordena por dni
+$order = 'dni';
 
-if (isset($_POST[$order])) {
-  $order = $_POST[$order];
-
+if (isset($_GET['orderby'])) {
+    $order = $_GET['orderby'];
 }
 
-
+return $order;
