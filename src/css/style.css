@@ -1,0 +1,32 @@
+#principal {
+    padding: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: auto;
+    align-items: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+}
+
+.fila-modificable {
+    border: 4px solid gray !important;
+}
+
+.fila-modificable td {
+    background-color: orange;
+}
+
+.error {
+    color: red;
+}
