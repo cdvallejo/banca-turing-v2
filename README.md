@@ -40,8 +40,6 @@ La app se conecta a una base de datos **MySQL**, gestionada mediante **phpMyAdmi
 
 ---
 
-## ⭐ Contribuye
-
 Si te ha gustado este proyecto, ¡no olvides dejar una ⭐ en el repositorio!
 
 ---
